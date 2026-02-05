@@ -7,7 +7,7 @@ import numpy as np
 
 # Page configuration
 st.set_page_config(
-    page_title="Energy Consumption Dashboard",
+    page_title="Martins & Energy Consumption Dashboard",
     page_icon="⚡",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -42,7 +42,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Title
-st.markdown("<h1>⚡ Energy Consumption Dashboard</h1>", unsafe_allow_html=True)
+st.markdown("<h1>⚡ Martins & Technical Partner Energy Consumption Dashboard</h1>", unsafe_allow_html=True)
 
 # Load data with caching
 @st.cache_data
