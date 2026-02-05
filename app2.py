@@ -42,7 +42,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Title
-st.markdown("<h1>⚡ Martins & Technical Partner Energy Assna Consumption Dashboard</h1>", unsafe_allow_html=True)
+st.markdown("<h1>⚡ Martins & Technical Partner Energy Consumption Dashboard</h1>", unsafe_allow_html=True)
 
 # Load data with caching
 @st.cache_data
